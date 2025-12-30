@@ -1,14 +1,14 @@
 A modular Finite State Machine–based enemy AI system built in Unity to control a robot enemy with patrol and alert behaviors.
 
 This project focuses on clean AI architecture, separating what the enemy does (states) from when it changes behavior (transitions).
-✨ Overview
+
 
 
 
 https://github.com/user-attachments/assets/a1def6d6-bb1c-47a5-929e-399ffd3806e0
 
 
-
+✨ Overview
 The enemy robot operates using a custom FSM framework, where:
 
 Each behavior is a State
