@@ -55,15 +55,7 @@ State System
 
 Abstract State base class
 
-Internal state phases:
-
-Enter
-
-Update
-
-Exit
-
-Interrupted
+Internal state phases: (OnEnter ,OnUpdate ,OnExit,Interrupted),
 
 States manage their own transitions
 
@@ -75,13 +67,9 @@ Conditions are simple Func<bool>
 
 No hard dependencies between states
 
-FiniteStateMachine
+FiniteStateMachine ~ A state that contains another state
 
-A state that contains another state
-
-Enables hierarchical FSMs
-
-Clean separation between high-level intent and low-level actions
+Enables hierarchical FSMs ~ Clean separation between high-level intent and low-level actions
 
 ______________________________________________________________________________________________________________________________________________________________________________
 
